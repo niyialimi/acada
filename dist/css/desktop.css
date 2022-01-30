@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background:#03293b;
+	
+}
+.navbar-default {
+    border:0px;
+    transition: all 0.3s;
+	border-radius:0px;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover
+{
+    color: #002F2F;
+}
+#iconwrap
+{
+	margin:5% 20% 5% 30%;/*top,right,bottom,left*/
+	color:#fff;
+}
+.icondesc
+{
+	width:70px;
+	height:100px;
+	margin-right:5%;
+	margin-bottom:10%;
+	float:left;
+	background:transparent;
+	text-align:center;
+}
+#icon
+{
+	width:70px;
+	height:70px;
+	border-radius:10px;
+	float:left;
+	margin-right:5%;
+	margin-bottom:3%;
+	left: 320px;
+	top: 670px;
+	overflow:hidden;
+}
+.icontext
+{
+	margin-left:0%;
+	margin-right:5%px;	
+	overflow:hidden;
+	text-align:center;
+}
+.iconred
+{
+	background:#f51b0a;
+	color:#ffffff;
+	font-size:large;
+}
+.iconorange
+{
+	background:#dd8608;
+	color:#ffffff;
+}
+.iconaqua
+{
+	background:#49cef2;
+	color:#ffffff;
+}
+.iconblue
+{
+	background:#07a4c1;
+	color:#ffffff;
+}
+.icongreen
+{
+	background:#09932e;
+	color:#ffffff;
+}
+.iconpink
+{
+	background:#8e075d;
+	color:#ffffff;
+}
+.iconmaroon
+{
+	background:#8e1907;
+	color:#ffffff;
+}
+.iconpurple
+{
+	background:#4a0481;
+	color:#ffffff;
+}
+.iconteal
+{
+	background:#0d464d;
+	color:#ffffff;
+}
+.icongold
+{
+	background:#a58b05;
+	color:#ffffff;
+}
+@media only screen and (max-width: 480px) {
+	
+	#icon{
+	width:40px;
+	height:40px;
+	border-radius:5px;
+	float:left;	
+	overflow:hidden;
+}
+.icontext
+{
+	margin-left:5%;
+	margin-right:5%px;	
+	overflow:hidden;
+}
+}
